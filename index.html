@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <header class="gameimage">
+        <p class="text"> 😊 Lets Play</p>
+        <img class="img1" src="header1.jpg" alt="gameimage">
+        <img class="img2" src="heaxagonal-colors.gif" alt="gameimage">
+        <img class="img3" src="header3.jpg" alt="gameimage">
+    </header>
+    <section id="start">
+            <h3 id="demo">
+                <button type="button" id="btn" onclick="myFunction()"><b>CLICK HERE TO START</b></strong></button>
+            </h3>
+        <div class="container-fluid m-1">
+            <div class="row p-0">
+                <article class="col-sm-4 d-flex flex-row">
+                <div class="card-sm flex-row ">
+                    <div class=" card-sm-body d-flex justify-content-center">
+                        <p class="card-img circl1"  id="circle1"><b>shape1</b></p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 d-flex flex-row">
+                <div class="card-sm flex-row">
+                    <div class="card-sm-body d-flex justify-content-center">
+                        <p class="card-img circl2" id="circle2"><b>shape2</b></p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 d-flex flex-row">
+                <div class="card-sm flex-row">
+                    <div class="card-sm-body d-flex justify-content-center">
+                      <p class="card-img squar1"  id="square1"><b>shape3</b></p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 d-flex flex-row">
+                <div class="card-sm flex-row ">
+                    <div class="card-sm-body d-flex justify-content-center">
+                      <p class="card-img squar2"  id="square2"><b>shape4</b></p>
+                    </div>
+                </div>
+            </article>   
+        </div>
+        </div>
+    </section>
+            <form id="game1">
+                <input type="text" id="guess">
+                <button type="button" onclick="mygame1()"><strong>Write your answer here!</strong></button>
+            </form>
+        <div class="image-making">
+            <p id="rund1"></p>
+            <p id="rund2"></p>
+            <p id="sqr1"></p>
+            <p id="sqr2"></p>
+            <img id="greatjob" src=http://animated.name/uploads/posts/2016-08/1471948739_1161.gif>
+        </div>
+        
+        <footer id="footer" class="container-fluid d-flex ">
+                <p class="lead "><b>Made by me &copy; 2018</b></p>
+            </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
